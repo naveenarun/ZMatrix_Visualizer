@@ -1,0 +1,50 @@
+x1
+x2 x1 1.0
+c1 x1 rc1 x2 90.0
+c2 x1 rc1 x2 90.0 c1 180.0
+c3 c1 rc3 x1 ac3 x2 -90.0
+c4 c2 rc3 x1 ac3 x2 -90.0
+c5 c3 rc5 c1 ac5 c2 180.0
+c6 c4 rc5 c2 ac5 c1 180.0
+c7 c5 rc7 c3 ac7 c1 180.0
+c8 c6 rc7 c4 ac7 c2 180.0
+h1 c1 rh1 c2 ah1 c3 th1
+h2 c1 rh1 c2 ah1 c3 -th1
+h3 c2 rh1 c1 ah1 c4 th1
+h4 c2 rh1 c1 ah1 c4 -th1
+h5 c3 rh5 c1 ah5 c2 th5
+h6 c3 rh5 c1 ah5 c2 -th5
+h7 c4 rh5 c2 ah5 c1 th5
+h8 c4 rh5 c2 ah5 c1 -th5
+h9 c5 rh9 c3 ah9 c1 th9
+h10 c5 rh9 c3 ah9 c1 -th9
+h11 c6 rh9 c4 ah9 c2 th9
+h12 c6 rh9 c4 ah9 c2 -th9
+h13 c7 rh13 c5 ah13 c3 th13
+h14 c7 rh13 c5 ah13 c3 -th13
+h15 c8 rh13 c6 ah13 c4 th13
+h16 c8 rh13 c6 ah13 c4 -th13
+h17 c7 rh17 c5 ah17 c3 180.0
+h18 c8 rh17 c6 ah17 c4 180.0
+V:
+ rc1=0.76704127
+ rc3=1.53392693
+ ac3=113.50885942
+ rc5=1.53413826
+ ac5=113.65823799
+ rc7=1.5320724
+ ac7=113.21211196
+ rh1=1.10035712
+ ah1=109.27314938
+ th1=122.248343
+ rh5=1.10047619
+ ah5=109.29428672
+ th5=57.74330993
+ rh9=1.09946575
+ ah9=109.21562034
+ th9=57.74517403
+ rh13=1.09711799
+ ah13=111.18138271
+ th13=59.85049068
+ rh17=1.09603899
+ ah17=111.47064075
